@@ -416,6 +416,7 @@ img {
 }
 
 .footer-title {
+    color: #ffffff;
     font-weight: 500;
     text-transform: capitalize;
     margin-bottom: 16px;
@@ -427,4 +428,9 @@ img {
 
 .footer-section .social-list {
     gap: 16px;
+}
+
+.footer-section .social-link:hover,
+.footer-section .social-link:focus {
+    background-color: #31d0aa;
 }
